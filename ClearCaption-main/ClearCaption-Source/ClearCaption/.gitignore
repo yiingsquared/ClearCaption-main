@@ -1,0 +1,12 @@
+node_modules/
+dist/
+releases/
+.generated/
+.data/
+.env
+*.db
+*.db-shm
+*.db-wal
+.sites-runtime/
+.sites-checkout/
+.DS_Store

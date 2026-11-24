@@ -1,0 +1,25 @@
+{
+  "name": "clearcaption",
+  "version": "0.1.0",
+  "description": "Live captions, three languages, clearer learning.",
+  "author": "ClearCaption",
+  "private": true,
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "node server/dev.mjs",
+    "server": "node server/dev.mjs",
+    "start": "electron .",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "db:generate": "drizzle-kit generate",
+    "package:desktop": "node scripts/package-desktop.mjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "43.8.12",
+    "esbuild": "0.25.12",
+    "drizzle-kit": "0.31.4",
+    "drizzle-orm": "0.44.7"
+  }
+}
